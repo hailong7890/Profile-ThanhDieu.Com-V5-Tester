@@ -33,7 +33,7 @@ class ThanhDieuHeader implements ThanhDieuConfigInterface {
 
 class ThanhDieuLoveDays implements ThanhDieuConfigInterface {
     public $ConfigLove = [
-        "avatar_male" => "./res/v5/img/male.jpeg", // Thay đường dẫn tới thư mục chứa ảnh của bạn hoặc up ảnh lấy link tại img.thanhdieu.com
+        "avatar_male" => "./res/v5/img/IMG_20250416_060528_837.webp", // Thay đường dẫn tới thư mục chứa ảnh của bạn hoặc up ảnh lấy link tại img.thanhdieu.com
         "name_male" => "HaiLong", // Thay tên của bạn
         //========================================================//
         "avatar_female" => "", // Thay đường dẫn tới thư mục chứa ảnh bạn gái hoặc up ảnh lấy link tại img.thanhdieu.com
