@@ -7,13 +7,13 @@ interface ThanhDieuConfigInterface {
     public function CommonMethod();
 }
 class ThanhDieuHeader implements ThanhDieuConfigInterface {
-    public $title = "Vương Thanh Diệu | Resources V5";
-    public $description = "Hi my name is ThanhDieu / A freelance / web developer / vexer";
-    public $keywords = "thanhdieu,web thanh dieu,vuong thanh dieu,thanhdieutv,wsteam,wusteam,thanhdieu home,profile thanhdieu";
+    public $title = "Nguyễn Sỹ Hải Long| Resources V5";
+    public $description = "Hi my name is HaiLongHw / A freelance / web developer / vexer";
+    public $keywords = "HlongHw,web Hw,nguyen sy hai long,hw home,profile hw";
     public $favicon = "./res/v5/img/logo.jpg";
-    public $namesite = "THANHDIEU | HOME";
+    public $namesite = "Hw | HOME";
     public $avatar = "./res/v5/img/avatar.gif";
-    public $userName = ["Hello Everybody", "My name is ThanhDieu.", "I really like website design 🌭"];
+    public $userName = ["Hello Everybody", "My name is HLongHw.", "I really like website design 🌭"];
     public $trigger = "👉 Tìm hiểu tôi 😶&zwj;🌫️";
     public $bio1 = "🤖️ Người đâm mê công nghệ số";
     public $bio2 = "🔍 Chia sẻ và giúp đỡ nhiệt tình";
@@ -22,10 +22,10 @@ class ThanhDieuHeader implements ThanhDieuConfigInterface {
     public $bio5 = "Ăn, ngủ, làm và chơi game 🎮";
     public $bio6 = "Kẻ khờ dại tin vào tình yêu ✨";
     public $SocialNetworks = [
-        "facebook" => "https://facebook.com/wusthanhdieu", // Thay link facebook
-        "instagram" => "https://www.instagram.com/vuongsondieu2k2", // Thay link instagram
-        "tiktok" => "https://www.tiktok.com/", // Thay link tiktok
-        "telegram" => "https://t.me/thanhdieuchannel" // Thay link telegram
+        "facebook" => "https://facebook.com/nguyen.sy.hai.long", // Thay link facebook
+        "instagram" => "https://www.instagram.com/hlongcuto", // Thay link instagram
+        "tiktok" => "https://www.tiktok.com/hai.long85", // Thay link tiktok
+        "telegram" => "https://t.me/" // Thay link telegram
     ];
     public function CommonMethod(){date_default_timezone_set('Asia/Ho_Chi_Minh');}
 }
@@ -34,17 +34,17 @@ class ThanhDieuHeader implements ThanhDieuConfigInterface {
 class ThanhDieuLoveDays implements ThanhDieuConfigInterface {
     public $ConfigLove = [
         "avatar_male" => "./res/v5/img/male.jpeg", // Thay đường dẫn tới thư mục chứa ảnh của bạn hoặc up ảnh lấy link tại img.thanhdieu.com
-        "name_male" => "ThanhDieu", // Thay tên của bạn
+        "name_male" => "HaiLong", // Thay tên của bạn
         //========================================================//
-        "avatar_female" => "./res/v5/img/female.jpeg", // Thay đường dẫn tới thư mục chứa ảnh bạn gái hoặc up ảnh lấy link tại img.thanhdieu.com
-        "name_female" => "Ngoc Tram", // Thay tên đối phương
+        "avatar_female" => "", // Thay đường dẫn tới thư mục chứa ảnh bạn gái hoặc up ảnh lấy link tại img.thanhdieu.com
+        "name_female" => "", // Thay tên đối phương
         //========================================================//
         "time_relashiption" => "28/03/2024" // Định dạng ngày tháng năm: DD-MM-YYYY or / or :
         //========================================================//
     ];
     public function CommonMethod() {}
 }
-class ThanhDieuMusicList implements ThanhDieuConfigInterface {
+class HaiLongHwMusicList implements ThanhDieuConfigInterface {
     public $songs = [
         [
             "url" => "https://files.catbox.moe/4bjjfg.mp3",
